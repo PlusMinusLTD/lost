@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Lost</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lt_lt_go_back"><![CDATA[< < Go back]]></string>
+    <string name="reset_password"><![CDATA[Reset Password >]]></string>
+    <string name="enter_your_registered_email">Enter your registered email</string>
+    <string name="don_t_worry_we_just_need_your_registered_email_to_reset_your_passrword">Do not worry, we just need your registered email to reset your password</string>
+    <string name="first_you_have_to_select_the_picture">* First you have to select the picture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="who_making_this_crime">Who Making This Crime</string>
+    <string name="active">Active</string>
+    <string name="incoming_meeting_invitation">Incoming Call</string>
+    <string name="sending_meeting_invitation">Outgoing Call</string>
+    <string name="sign_out"><![CDATA[Sign Out >]]></string>
+    <string name="lost">Lost</string>
+    <string name="announcement">Announcement</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="send">Send</string>
+    <string name="add">Add</string>
+    <string name="transaction_history">Transaction History</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="Crime_List">
+        <item>Add Crime Type</item>
+        <item>Antisocial behaviour</item>
+        <item>Arson </item>
+        <item>Burglary</item>
+        <item>Childhood abuse</item>
+        <item>Cyber crime and online fraud</item>
+        <item>Domestic abuse</item>
+        <item>Domestic abuse or coercive control during Covid-19</item>
+        <item>Fraud</item>
+        <item>Hate crime</item>
+        <item>Image based sexual abuse</item>
+        <item>Modern Slavery</item>
+        <item>Murder or manslaughter</item>
+        <item>Rape and sexual assault</item>
+        <item>Robbery</item>
+        <item>Sexual harassment</item>
+        <item>Stalking and harassment</item>
+        <item>Terrorism</item>
+        <item>Violent crime</item>
+        <item>Smuggling</item>
+    </string-array>
+</resources>

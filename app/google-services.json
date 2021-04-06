@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "869765182321",
+    "firebase_url": "https://lost-93eea.firebaseio.com",
+    "project_id": "lost-93eea",
+    "storage_bucket": "lost-93eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869765182321:android:580eac9870bd64c6c33cd0",
+        "android_client_info": {
+          "package_name": "com.PlusMinusLLC.lost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869765182321-2qlk40dolk65hk7b4srcmklos4vjpvu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEdgAbZjOR5dD5xundH5Bz6hDKR4OyRPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869765182321-2qlk40dolk65hk7b4srcmklos4vjpvu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

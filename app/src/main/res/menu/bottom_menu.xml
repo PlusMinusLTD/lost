@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_missing"
+        android:icon="@drawable/icons8_find_user_male_100"
+        app:cnb_backgroundColor="@color/violet_700"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        android:title="Missing" />
+
+    <item
+        android:id="@+id/navigation_crime"
+        android:icon="@drawable/icons8_prisoner_100"
+        app:cnb_backgroundColor="@color/violet_700"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        android:title="Crime" />
+
+
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/dashboard"
+        app:cnb_backgroundColor="@color/violet_700"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        android:title="Dashboard" />
+</menu>

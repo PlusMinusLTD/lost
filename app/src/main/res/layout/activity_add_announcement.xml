@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".AddMissingActivity">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/missing_people_image_add"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_round_add_circle_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:riv_corner_radius="20dp" />
+
+    <TextView
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/first_you_have_to_select_the_picture"
+        android:textColor="@color/violet_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/missing_people_image_add" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/round_20"
+        android:backgroundTint="@color/black"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alert">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/missing_people_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/round_10"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/white"
+                android:elevation="6dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ass" />
+
+            <EditText
+                android:id="@+id/missing_people_finding_prize"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_10"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableStart="@drawable/ic_baseline_money_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/white"
+                android:elevation="6dp"
+                android:ems="10"
+                android:hint="Honorable"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ass" />
+
+            <EditText
+                android:id="@+id/missing_people_age_add"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_10"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ass" />
+
+            <EditText
+                android:id="@+id/missing_people_last_seen_time_add"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_10"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableStart="@drawable/ic_baseline_history_toggle_off_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Last Seen (When)"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ass" />
+
+            <EditText
+                android:id="@+id/missing_people_last_seen_place_add"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_10"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableStart="@drawable/ic_baseline_place_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Last Seen (Where)"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ass" />
+
+            <EditText
+                android:id="@+id/missing_postal_code_add"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_10"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableStart="@drawable/ic_baseline_place_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Postal Code"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ass" />
+
+            <EditText
+                android:id="@+id/missing_people_details_add"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_10"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableStart="@drawable/ic_baseline_details_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Details"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ass" />
+
+            <Button
+                android:id="@+id/uploadBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_10"
+                android:enabled="false"
+                android:text="Upload"
+                android:textAllCaps="false"
+                android:textColor="@color/white2"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Publish announcement"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

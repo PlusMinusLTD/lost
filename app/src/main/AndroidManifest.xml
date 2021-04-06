@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.PlusMinusLLC.lost">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lost"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".MapBoxActivity"></activity>
+        <activity android:name=".TransactionHistoryActivity" />
+        <activity
+            android:name=".Meet.OutGoingInvitationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Meet.IncomingInvitationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Meet.MeetActivity" />
+        <activity android:name=".Wallet.WalletActivity" />
+        <activity android:name=".Profile.ManageProfile" />
+        <activity android:name=".AddCrimeActivity" />
+        <activity android:name=".Announcement.AnnouncementActivity" />
+        <activity android:name=".AddAnnouncementActivity" />
+        <activity android:name=".AddMissingActivity" />
+        <activity android:name=".Registration.RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Meet.MessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
