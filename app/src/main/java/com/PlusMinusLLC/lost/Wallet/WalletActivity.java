@@ -69,7 +69,6 @@ public class WalletActivity extends AppCompatActivity {
     private TextView cardNumber, cardHolderName, cardHolderNumber, cash, title, Current_Money,Send_Money,Add_Money;
     private ImageView backBtn, qrCode, QRCode;
     private Button addCash, sendCash, dismissBtn, transactionHistoryBtn;
-    private RecyclerView walletRecyclerView;
     public static WalletAdapter walletAdapter;
     private Dialog loadingDialog, qrDialog, coinDialog;
     private FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
